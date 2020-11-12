@@ -225,6 +225,27 @@
   "thform": {
     "prefix": "thform",
     "body": "<th-form ref=\"\" :rules=\"\" :model=\"\" label-width=\"\">\n\t<th-form-item prop=\"\" label=\"\">\n\t</th-form-item>\n</th-form>",
-    "description": "form for tiger-ui"
+    "description": "form component for tiger-ui"
+  },
+  "thselect": {
+    "prefix": "thselect",
+    "body": "<th-select v-model=\"\" :placeholder=\"\" >\n\t<th-option label=\"\" value=\"\">\n\t</th-option>\n</th-select>",
+    "description": "select component for tiger-ui"
+  },
+  "thradio": {
+    "prefix": "thradio",
+    "body": "<th-radio v-model=\"\" label=\"\" ></th-radio>",
+    "description": "radio component for tiger-ui"
+  },
+  "thcheckbox": {
+    "prefix": "thcheckbox",
+    "body": "<th-checkbox v-model=\"\" label=\"\" ></th-checkbox>",
+    "description": "checkbox component for tiger-ui"
+  },
+  "thinput": {
+    "prefix": "thinput",
+    "body": "<th-input v-model=\"\" placeholder=\"\" ></th-input>",
+    "description": "input component for tiger-ui"
   }
+
 }
